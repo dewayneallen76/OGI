@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>One Guard Inspections</Text>
+      <Image source={require('./oneguard.png')} />
       <StatusBar style="auto" />
       <Text>Login as Dispatcher</Text>
       <Text>Login as Inspector</Text>
