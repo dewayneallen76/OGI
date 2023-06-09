@@ -1,13 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, TextComponent, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>One Guard Inspections</Text>
+      <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
-      <Text>Login as Dispatcher</Text>
-      <Text>Login as Inspector</Text>
     </View>
   );
 }
